@@ -3,26 +3,56 @@
 :root{
     --fontePadrao: 'Roboto', 'sans-serif';
     --fonteTitulo: 'Merienda', 'cursive';
+
+    --cor01:#FBF9DB;
+    --cor02:#FAF6C5;
+    --cor03:#94905A;
+    --cor04:#615D28;
+    --cor05:#33300B;
 }
 .navbar {
-    background-color: lightyellow;
+    background-color: var(--cor01);
 }
-.sessao-titulo{
+.sessao-titulo,
+.sessao-titulo:hover{
     font-family: var(--fonteTitulo);
-    color: aqua;
+    color: #33300B;
 }
 .sessao-padrao{
     font-family: var(--fontePadrao);
 }
+body {
+    font-family: var(--fontePadrao);
+}
 .nav .nav-link {
     background-color: white;
-    color: rgb(240, 6, 6);
+    color: var(--cor04);
 }
 
 .nav .nav-link.active {
-    background-color: rgba(233, 224, 102, 0.438);
-    color: black;
+    background-color: var(--cor03);
+    color: #fff;
 }
 .navbar-toggler{
-    background-color: rgba(233, 224, 102, 0.438);
+    background-color: var(--cor02);
+}
+
+.tamanho-carousel {
+    max-width: 1920px;
+    max-height: 720px;
+}
+
+#sobre-nos,
+#ofertas {
+    background-color: var(--cor02);
+}
+.full-price {
+    color: red;
+}
+.discount {
+    color: green;
+}
+.paragrafo-promocao {
+    font-size: 15px;
+    width: 70%;
 }

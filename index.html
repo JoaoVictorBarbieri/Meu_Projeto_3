@@ -11,14 +11,14 @@
 <body>
     <header id="cabecalho" class="navbar navbar-expand-lg sticky-top p-3">
         <div class="container">
-            <h1 class="navbar-brand m-0 sessao-titulo fs-2">BestBuy</h1>
+            <h1 class="navbar-brand m-0 sessao-titulo fs-1 fw-bold">BestBuy</h1>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuCabecalho">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menuCabecalho">
                 <ul class="nav nav-pills d-block d-md-flex fw-bold sessao-padrao">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#sobre-nos">
+                        <a class="nav-link" href="#sobre-nos">
                             <i class="bi bi-joystick"></i>
                             Sobre a loja</a>
                     </li>
@@ -28,7 +28,7 @@
                             Lançamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#Ofertas">
+                        <a class="nav-link" href="#ofertas">
                             <i class="bi bi-fire me-1"></i>
                             Ofertas</a>
                     </li>
@@ -45,9 +45,162 @@
                 </ul>
             </nav>
         </div>
-
     </header>
-
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre-nos">
+                <div class="carousel slide" data-bs-ride="carousel" id="carouselInicio">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active tamanho-carousel w-100" data-bs-interval="3000">
+                            <img src="Imagens/carousel-imagem04.jpg" alt="#a">
+                        </div>
+                        <div class="carousel-item tamanho-carousel w-100" data-bs-interval="3000">
+                            <img src="Imagens/carousel-imagem05.jpg" alt="#b">
+                        </div>
+                        <div class="carousel-item tamanho-carousel w-100" data-bs-interval="3000">
+                            <img src="Imagens/carousel-imagem06.jpg" alt="#c">
+                        </div>
+                    </div>
+                    <button type="button" class="carousel-control-prev" data-bs-target="#carouselInicio" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-bs-target="#carouselInicio" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" class="active" data-bs-target="#carouselInicio" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carouselInicio" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img class="d-block w-100" src="Imagens/sobre-nos.png" alt="#d">
+                            </div>
+                            <div class="col-md-7">
+                                <h2 class="sessao-titulo fw-bold fs-3">Sobre a loja</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repudiandae, quaerat velit at sed modi minus ex vel dolorum illo eaque, quae, fugit unde sapiente perferendis doloremque. Quasi, culpa facere.</p>
+                                <h3 class="sessao-titulo fw-bold fs-3">Como funciona?</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam facilis facere perferendis possimus ullam explicabo rem pariatur omnis fuga voluptatum, ut officiis asperiores quod quibusdam commodi nesciunt, dolorum iure impedit.</p>
+                                <ul>
+                                    <li>aaaaaaaaaaaaaaaaaaaaa</li>
+                                    <li>aaaaaaaaaaaaaaaaaaaaa</li>
+                                    <li>aaaaaaaaaaaaaaaaaaaaa</li>
+                                    <li>aaaaaaaaaaaaaaaaaaaaa</li>
+                                    <li>aaaaaaaaaaaaaaaaaaaaa</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="lancamentos" class="pb-5 pt-5">
+            <div class="container">
+                <h2 class="sessao-titulo fw-bold text-center pb-5">Lançamentos</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
+                        <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
+                            <i class="bi bi-cloud-upload-fill"></i>
+                            Jogo lançamento 01</h3>
+                        <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
+                    </div>
+        </section>
+        <section id="ofertas" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="sessao-titulo text-center pb-5">Ofertas por tempo limitado</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#f">
+                        <h3 class="fw-bold sessao-titulo pt-2 text-center" >Jogo em oferta 01</h3>
+                        <h4 class="fw-normal fs-5 text-center" ><del class="full-price">350R$</del> por <span class="discount">99,99R$</span></h4>
+                        <p class="text-center pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore, facilis necessitatibus fugiat et quaerat tempore iusto, ducimus illum est, voluptate voluptatibus reiciendis. At blanditiis corporis veritatis ut similique facilis.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="rounded w-100" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo pt-2 text-center fs-4">
+                            <i class="bi bi-coin"></i>
+                            Jogo em oferta 02</h3>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="rounded w-90" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo pt-2 fs-5">
+                            <i class="bi bi-coin"></i>
+                            Jogo em oferta 03</h3>
+                        <p class="paragrafo-promocao text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="rounded w-95" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo fs-5 pt-2">
+                            <i class="bi bi-currency-exchange"></i>
+                            Jogo em oferta 04</h3>
+                        <p class="paragrafo-promocao text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="rounded w-95" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo fs-5 pt-2">
+                            <i class="bi bi-currency-exchange"></i>
+                            Jogo em oferta 05</h3>
+                        <p class="paragrafo-promocao text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="rounded w-95" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo fs-5 pt-2">
+                            <i class="bi bi-currency-exchange"></i>
+                            Jogo em oferta 06</h3>
+                        <p class="paragrafo-promocao text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="rounded w-95" src="https://placehold.co/208x138" alt="#g">
+                        <h3 class="fw-bold sessao-titulo fs-5 pt-2">
+                            <i class="bi bi-currency-exchange"></i>
+                            Jogo em oferta 07</h3>
+                        <p class="paragrafo-promocao text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi inventore ab aperiam, expedita repellendus est optio labore facilis in ipsam fugit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
