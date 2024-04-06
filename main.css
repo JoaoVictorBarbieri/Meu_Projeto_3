@@ -24,12 +24,12 @@
 body {
     font-family: var(--fontePadrao);
 }
-.nav .nav-link {
+#cabecalho .nav .nav-link {
     background-color: var(--cor01);
     color: var(--cor04);
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
     background-color: var(--cor03);
     color: #fff;
 }
@@ -43,7 +43,8 @@ body {
 }
 
 #sobre-nos,
-#ofertas {
+#ofertas,
+#fale-conosco {
     background-color: #fbf9db8c;
 }
 .full-price {
@@ -56,3 +57,26 @@ body {
     font-size: 15px;
     width: 70%;
 }
+
+#catalogo .paragrafo-promocao {
+    width: 100%;
+}
+#catalogo .nav .nav-link.active {
+    background-color: var(--cor03);
+    color: #fff;
+}
+#catalogo .nav .nav-link {
+    background-color: white;
+    color: var(--cor04);
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--cor04);
+    margin: 10px 2px
+}
+
