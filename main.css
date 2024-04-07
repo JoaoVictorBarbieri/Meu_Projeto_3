@@ -4,38 +4,42 @@
     --fontePadrao: 'Roboto', 'sans-serif';
     --fonteTitulo: 'Merienda', 'cursive';
 
-    --cor01:#FBF9DB;
-    --cor02:#FAF6C5;
-    --cor03:#94905A;
-    --cor04:#615D28;
-    --cor05:#33300B;
+    --cor01:#d49c9d;
+    --cor02:#A8383B;
+    --cor0202:#973d40d3;
+    --cor03:#7A4033;
+    --cor04:#600A0C;
+    --cor05:#180001;
+    --cor06-:#332C2A;
+}
+body {
+    background-color: var(--cor06-);
+    font-family: var(--fontePadrao);
+    color: var(--cor01);
 }
 .navbar {
-    background-color: var(--cor01);
+    background-color: var(--cor02);
 }
 .sessao-titulo,
 .sessao-titulo:hover{
     font-family: var(--fonteTitulo);
-    color: var(--cor05);
+    color: var(--cor01);
 }
 .sessao-padrao{
     font-family: var(--fontePadrao);
 }
 .sessao-padrao-cor{
     font-family: var(--fontePadrao);
-    color: var(--cor04);
-}
-body {
-    font-family: var(--fontePadrao);
+    color: var(--cor01);
 }
 #cabecalho .nav .nav-link {
-    background-color: var(--cor01);
-    color: var(--cor04);
+    background-color: var(--cor04);
+    color: var(--cor01);
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: var(--cor03);
-    color: #fff;
+    background-color: var(--cor01);
+    color: var(--cor05);
 }
 .navbar-toggler{
     background-color: var(--cor02);
@@ -49,7 +53,7 @@ body {
 #sobre-nos,
 #ofertas,
 #fale-conosco {
-    background-color: #fbf9db8c;
+    background-color: var(--cor0202);
 }
 .full-price {
     color: red;
@@ -65,11 +69,11 @@ body {
     width: 100%;
 }
 #catalogo .nav .nav-link.active {
-    background-color: var(--cor03);
-    color: #fff;
+    background-color: var(--cor02);
+    color:var(--cor06-);
 }
 #catalogo .nav .nav-link {
-    background-color: white;
+    background-color: var(--cor01);
     color: var(--cor04);
 }
 .social-links li{
@@ -79,13 +83,13 @@ body {
 .social-links a {
     font-size: 0.8em;
     text-decoration: none;
-    color: var(--cor04);
+    color: var(--cor05);
     margin: 10px 2px
 }
 
 footer{
     text-align: center;
-    background-color: var(--cor03);
+    background-color: var(--cor04);
     color:var(--cor05);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -93,11 +97,36 @@ footer{
 
 }
 #fale-conosco button {
-    background-color: var(--cor03);
-    color: white;
+    background-color: var(--cor04);
+    color: var(--cor01);
     margin-top: 15px;
 }
-
+@media (max-width: 1023px){
+    .carousel-item img {
+        height: 680px;
+        
+    }
+    #sobreNosIMG {
+        height: 400px;
+    }
+    #ofertas img {
+        max-width: 208px;
+        max-height: 138px;
+    }
+    #ofertas p {
+        margin: 10px auto;
+    }
+    #catalogo img {
+        margin-top: 10px;
+    }
+    #catalogo h3 {
+        margin-top: 10px;
+    }
+    #fale-conosco h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
 @media (max-width: 767px){
 
     button .navbar-toggler {
@@ -109,7 +138,7 @@ footer{
     .carousel-item img {
         height: 280px;
     }
-    .col-md-3 {
+    .col-md-4 {
         text-align: center;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -120,11 +149,18 @@ footer{
     #catalogo img {
         margin-top: 10px;
     }
+    #catalogo h3 {
+        margin-top: 10px;
+    }
     #fale-conosco h3 {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    #fale-conosco ul {
-
+    #catalogo p {
+        margin: 10px auto;
+    }
+    #catalogo{
+        width: 80%;
+        margin: 20px auto 10px auto;
     }
 }
