@@ -16,10 +16,14 @@
 .sessao-titulo,
 .sessao-titulo:hover{
     font-family: var(--fonteTitulo);
-    color: #33300B;
+    color: var(--cor05);
 }
 .sessao-padrao{
     font-family: var(--fontePadrao);
+}
+.sessao-padrao-cor{
+    font-family: var(--fontePadrao);
+    color: var(--cor04);
 }
 body {
     font-family: var(--fontePadrao);
@@ -57,7 +61,6 @@ body {
     font-size: 15px;
     width: 70%;
 }
-
 #catalogo .paragrafo-promocao {
     width: 100%;
 }
@@ -80,3 +83,48 @@ body {
     margin: 10px 2px
 }
 
+footer{
+    text-align: center;
+    background-color: var(--cor03);
+    color:var(--cor05);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+#fale-conosco button {
+    background-color: var(--cor03);
+    color: white;
+    margin-top: 15px;
+}
+
+@media (max-width: 767px){
+
+    button .navbar-toggler {
+        margin-bottom: 1%;
+    }
+    a.nav-link {
+        margin-top: 5px;
+    }
+    .carousel-item img {
+        height: 280px;
+    }
+    .col-md-3 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #ofertas p {
+        margin: 10px auto;
+    }
+    #catalogo img {
+        margin-top: 10px;
+    }
+    #fale-conosco h3 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #fale-conosco ul {
+
+    }
+}

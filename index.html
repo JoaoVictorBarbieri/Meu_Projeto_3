@@ -76,9 +76,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-5">
-                                <img class="d-block w-100" src="Imagens/sobre-nos.png" alt="#d">
+                                <img class="d-block w-100 mb-2" src="Imagens/sobre-nos.png" alt="#d">
                             </div>
-                            <div class="col-md-7">
+                            <div class="col-md-7 mt-3">
                                 <h2 class="sessao-titulo fw-bold fs-3">Sobre a loja</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate repudiandae, quaerat velit at sed modi minus ex vel dolorum illo eaque, quae, fugit unde sapiente perferendis doloremque. Quasi, culpa facere.</p>
                                 <h3 class="sessao-titulo fw-bold fs-3">Como funciona?</h3>
@@ -120,7 +120,6 @@
                             Jogo lançamento 01</h3>
                         <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
                     </div>
-                <div class="row">
                     <div class="col-md-4">
                         <img class="rounded w-100" src="https://placehold.co/208x138" alt="#e">
                         <h3 class="sessao-titulo fs-4 text-center pt-2 pb-2">
@@ -142,6 +141,7 @@
                             Jogo lançamento 01</h3>
                         <p class="pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ipsam ea illo iste molestias tempora cum modi voluptate doloribus tempore.</p>
                     </div>
+                </div>
         </section>
         <section id="ofertas" class="pt-5 pb-5">
             <div class="container">
@@ -202,7 +202,7 @@
         </section>
         <section id="catalogo">
             <div class="container pt-5 pb-5">
-                <h2 class="sessao-titulo text-center fw-bold pb-5">Nosso catálogo</h2>
+                <h2 class="sessao-titulo text-center fw-bold pb-3">Nosso catálogo</h2>
                 <div class="row">
                     <div class="col-md-2">
                         <aside>
@@ -423,27 +423,28 @@
                     <div class="col-md-6">
                         <h2 class="sessao-titulo fw-bold">Fale com a gente</h2>
                         <form>
-                            <div>
-                                <label for="nome" class="form-label">Seu nome:</label>
+                            <div class="mb-4">
+                                <label for="nome" class="form-label fw-bold sessao-padrao-cor">Seu nome:</label>
                                 <input type="text" id="nome" class="form-control" required>
                             </div>
-                            <div>
-                                <label for="email" class="form-label">Seu email:</label>
+                            <div class="mb-4">
+                                <label for="email" class="form-label fw-bold sessao-padrao-cor">Seu email:</label>
                                 <input type="email" id="email" class="form-control" required>
                             </div>
-                            <div>
-                                <label for="telefone" class="form-label">Seu telefone (Opcional):</label>
+                            <div class="mb-4">
+                                <label for="telefone" class="form-label fw-bold sessao-padrao-cor">Seu telefone (Opcional):</label>
                                 <input type="tel" id="telefone" class="form-control">
                             </div>
                             <div>
-                                <label for="mensagem" class="form-label">Sua mensagem:</label>
+                                <label for="mensagem" class="form-label fw-bold sessao-padrao-cor">Sua mensagem:</label>
                                 <textarea class="form-control" id="mensagem"></textarea>
                             </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
                     </div>
                     <div class="col-md-6">
                         <h3 class="sessao-titulo fw-bold">Redes sociais</h3>
-                        <ul class="social-links">
+                        <ul class="social-links ps-0">
                             <li class="fs-2">
                                 <a href="#">
                                     <i class="bi bi-facebook"></i>
@@ -472,6 +473,9 @@
             </div>
         </section>
     </div>
+    <footer>
+        Todos os direitos reservados 2024 &copy;
+    </footer>
     <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
